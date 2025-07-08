@@ -8,6 +8,19 @@
   }
 
   /*shared style*/
+
+  .section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+  }
+  .section-description{
+    font-size: 18px;
+    color: #757575;
+  }
+  .secondery-background{
+
+  }
   .text-primary{
     color:#FD6E0A;
       }
@@ -75,4 +88,40 @@ nav li a{
 }
 .banner-content{
     max-width: 580px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    background-origin: 10px;
+    padding: 10px 60px;
+    text-align: center;
+    margin:  20px;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-descrition{
+    font-weight: 600;
+}
+.skills{
+    background-origin: 10px;
+    padding: 10px 60px;
+    text-align: center;
+    margin:  20px;
+
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 30px 60px 0 #474747;
+
 }
